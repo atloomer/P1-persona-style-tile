@@ -23,6 +23,18 @@
 
 
 /* Imagery */
+#me {
+    width: 30%;
+    margin: auto;
+    display: block;
+    padding-bottom: 1em;
+}
+
+#knoll {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
 
 
 /* Icons */
