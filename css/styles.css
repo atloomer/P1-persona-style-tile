@@ -1,24 +1,33 @@
 /***************/
 /* YOUR STYLES */
 /***************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /* Color Palette */
+
 .color-1 {
-    background: red;
+    background: #EDEEEF;
 }
 
 .color-2 {
-    background: white;
+    background: #999;
 }
 
 .color-3 {
-    background: blue;
+    background: rgba(26, 26, 26, .6);
+}
+
+.color-4 {
+    background: #5B5A60;
+}
+
+.color-5 {
+    background: #2d2d2d;
 }
 
 /* Textures or Patterns*/
 .pattern-1 {
-    background: url("http://static.wixstatic.com/media/093f35_e61fde8d736d4eb883870cbc411accc5.gif");
-    background-size: cover;
+
 }
 
 
@@ -49,29 +58,32 @@ nav li {
 }
 
 nav a:link {
-    text-decoration: none;
-    color: blue;
-    text-transform: uppercase;
+    
 }
 
 nav a:hover {
-    color: red;
+    
 }
 
 /* Button */
 button {
-    color: white;
-    background: blue;
-    padding: .5em;
-    border: red solid 5px;
-    border-radius: 4px;
+    
 }
 
 
 /* Typography */
-h2, h1, p {
-    font-family: 'Henny Penny', cursive;
-    font-size: 1.25em;
-    line-height: 2em;
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #EDEEEF;
 }
 
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 150%;
+    color: rgba(26, 26, 26, .6);
+}
