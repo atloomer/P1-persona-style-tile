@@ -103,12 +103,13 @@ ul {
 }
 
 nav li {
+    color: #fff;
     text-align: center;
     background: #2d2d2d;
     list-style: none;
 }
 
-nav a:link {
+nav a {
     text-align: center;
     padding: 1.2em 0;
     display: block;
@@ -122,6 +123,14 @@ nav a:link {
 nav a:hover {
     color: #1a1e24;
     background: #D8D8D8;
+}
+
+nav a:visited {
+    color: #fff;
+}
+
+nav a:visited:hover {
+    color: #2d2d2d;
 }
 
 /* Button */
