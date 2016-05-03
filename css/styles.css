@@ -3,6 +3,32 @@
 /***************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+/* Top Bar */
+
+#top-bar {
+    width: 100%;
+    display: block;
+    height: 80px;
+    background: #2d2d2d;
+    position: fixed;
+    z-index: 999;
+    margin-top: -32px;
+    box-shadow: 0px 0px 10px #2d2d2d;
+}
+
+#top-bar h2 {
+    display: inline-block;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: lighter;
+    padding: 1em 0 0 1em;
+}
+
+
 /* Color Palette */
 
 .color-1 {
@@ -26,13 +52,23 @@
 }
 
 /* Textures or Patterns*/
-.pattern-1 {
 
+.pattern-1 {
+    background-size: 100px 100px;
+    background-image: url("https://raw.githubusercontent.com/atloomer/atloomer.github.io/master/img/BGp.jpg");
+    background-repeat: no-repeat;
+}
+
+.pattern-2 {
+    background-image: url("http://orig15.deviantart.net/475d/f/2011/094/d/a/drawing_grid_by_blossomhillstables-d3d70y5.png");
+    background-size: 220px 220px; 
+    background-repeat: no-repeat;
 }
 
 
 /* Imagery */
 #me {
+    padding-top: 100px;
     width: 30%;
     margin: auto;
     display: block;
@@ -47,27 +83,69 @@
 
 
 /* Icons */
+
 .icon-1 {
+    width: 70px;
+    border: none;
+}
+
+.icon-2,
+.icon-3 {
+    width: 50px;
     border: none;
 }
 
 
 /* Navigation */
+
+ul {
+    padding-left: 0;
+}
+
 nav li {
+    text-align: center;
+    background: #2d2d2d;
     list-style: none;
 }
 
 nav a:link {
-    
+    text-align: center;
+    padding: 1.2em 0;
+    display: block;
+    background: #2d2d2d;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    transition: .4s ease-in-out;
 }
 
 nav a:hover {
-    
+    color: #1a1e24;
+    background: #D8D8D8;
 }
 
 /* Button */
+
 button {
-    
+    border: 1px solid #2d2d2d;
+    padding: 0.7em 1.2em;
+    border-radius: 2px;
+    color: #2d2d2d;
+    text-transform: uppercase;
+    background: none;
+    letter-spacing: .1em;
+    transition: .4s ease-in-out;
+}
+
+button:hover {
+    background: #2d2d2d;
+    color: #fff;
+}
+
+/* Text Link */
+
+.text-link {
+    color: rgba(26, 26, 26, .6);
 }
 
 
@@ -79,11 +157,30 @@ body {
 }
 
 h1 {
-    text-align: center;
+    font-size: 2.2em;
+    font-weight: lighter;
+    letter-spacing: .05em;
+    color: #5B5A60;
     text-transform: uppercase;
 }
 
+h2 {
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #2d2d2d;
+}
+
+h3 {
+    line-height: 200%;
+    font-size: 1em;
+    padding-left: 1.5em;
+    font-weight: lighter;
+    color: #2d2d2d;
+}
+
 p {
+    padding-left: 1.5em;
     line-height: 150%;
     color: rgba(26, 26, 26, .6);
 }

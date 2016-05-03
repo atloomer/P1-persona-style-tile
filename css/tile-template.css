@@ -11,9 +11,7 @@
 .pattern-5,
 .icon-1,
 .icon-2,
-.icon-3,
-.icon-4,
-.icon-5 {
+.icon-3 {
 	border: 1px solid #000;
 	display: inline-block;
 	margin: 10px;
@@ -25,7 +23,8 @@
 .imagery-2 img,
 .imagery-3 img,
 .imagery-4 img,
-.imagery-5 img {
+.imagery-5 img,
+.imagery-6 img {
 	border: 1px solid #000;
 	height: 200px;
 	width: 300px;
@@ -35,7 +34,8 @@
 .imagery-2, 
 .imagery-3, 
 .imagery-4, 
-.imagery-5 {
+.imagery-5,
+.imagery-6 {
 	display: inline-block;
 } 
 
